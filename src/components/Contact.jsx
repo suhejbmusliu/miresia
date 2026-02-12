@@ -52,12 +52,12 @@ const Contact = () => {
 
               <div className="contact__item">
                 <strong>📧 Email</strong>
-                <p>info@dritaemiresise.org</p>
+                <p>amar.ismailii@icloud.com</p>
               </div>
 
               <div className="contact__item">
-                <strong>🕊️ Orari</strong>
-                <p>E Hënë – E Premte, 09:00 – 17:00</p>
+                <strong>🕊️ DONATO PERMES IBAN</strong>
+                <p>MK07270700120113109</p>
               </div>
             </div>
           </div>
