@@ -10,7 +10,7 @@ const Hero = () => {
   const y = useTransform(scrollY, [0, 500], [0, shouldReduceMotion ? 0 : 80]);
 
   return (
-    <section className="hero" ref={containerRef} id="hero">
+    <section className="hero" ref={containerRef} id="home">
       <Container>
         <div className="hero__content">
 
