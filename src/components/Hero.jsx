@@ -83,7 +83,7 @@ const Hero = () => {
           >
             <div className="hero__media-card">
               <img
-                src="/src/assets/heroimg.jpg" 
+                src="/heroimg.jpg" 
                 alt="Humanitarian Support"
                 style={{
                   width: "100%",
