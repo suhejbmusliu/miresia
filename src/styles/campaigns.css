@@ -1,0 +1,70 @@
+.campaigns {
+  padding: var(--space-3xl) 0;
+  background: transparent;
+  position: relative;
+}
+
+.campaigns__header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.campaigns__subtitle {
+  color: rgba(245, 245, 240, 0.75);
+  margin-top: var(--space-md);
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.campaigns__grid {
+  display: grid;
+  gap: var(--space-xl);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .campaigns__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Instead of 4 columns, use 2 big stretched cards */
+@media (min-width: 1200px) {
+  .campaigns__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.help-card {
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
+  background: rgba(15, 36, 25, 0.45);
+  border: 1px solid rgba(245, 245, 240, 0.12);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.help-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(180, 255, 57, 0.4);
+}
+
+.help-card__icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-md);
+}
+
+.help-card__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: var(--space-sm);
+}
+
+.help-card__description {
+  font-size: 0.95rem;
+  color: rgba(245, 245, 240, 0.75);
+  margin-bottom: var(--space-md);
+  line-height: 1.6;
+}
