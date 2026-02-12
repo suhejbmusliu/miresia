@@ -42,7 +42,7 @@ const Contact = () => {
             <div className="contact__card">
               <div className="contact__item">
                 <strong>📍 Adresa</strong>
-                <p>Prishtinë / Kosovë</p>
+                <p>Shkup / Maqedoni</p>
               </div>
 
               <div className="contact__item">
